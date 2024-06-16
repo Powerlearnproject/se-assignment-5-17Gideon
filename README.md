@@ -199,11 +199,9 @@ By using the integrated terminal, you streamline your development workflow, main
 7. File and Folder Management:
    - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
 In Visual Studio Code (VS Code), creating, opening, and managing files and folders is intuitive and efficient. Here's a detailed guide on how to perform these actions and navigate between different files and directories efficiently.
-
 Creating, Opening, and Managing Files and Folders
 Creating Files and Folders
 Using the Explorer Sidebar:
-
 Open the Explorer sidebar by clicking the file icon at the top-left corner or pressing Ctrl+Shift+E.
 To create a new file, click the New File icon (a document with a plus sign) or right-click in the Explorer and select New File. Name the file and press Enter.
 To create a new folder, click the New Folder icon (a folder with a plus sign) or right-click in the Explorer and select New Folder. Name the folder and press Enter.
@@ -345,9 +343,9 @@ Observe the output in the integrated terminal.
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
 Integrating Git with Visual Studio Code (VS Code) provides a powerful environment for version control. Here’s how you can set up and use Git in VS Code, including initializing a repository, making commits, and pushing changes to GitHub.
 Integrating Git with VS Code
-1. Install Git
+Install Git
 Ensure that Git is installed on your system. You can download it from the official Git website.
-2. Install Git Extension for VS Code
+Install Git Extension for VS Code
 The Git extension is built-in with VS Code. If you need additional features, you can install the GitHub Pull Requests and Issues extension from the Extensions view (Ctrl+Shift+X).
 Initializing a Repository
 Open Your Project Folder:
@@ -388,16 +386,11 @@ Ensure you’re signed in to GitHub.
 Add the remote repository URL.
 Push the commits to the remote repository.
 Key Git Features in VS Code
-Source Control View:
-Access and manage your repository, stage changes, and commit files.
-Branch Management:
-Create, switch, and manage branches directly from the Source Control view.
-Built-in Terminal:
-Use the integrated terminal (Ctrl+ or Cmd+) for advanced Git commands.
-GitLens Extension:
-Enhance your Git experience with additional features like blame annotations, detailed history, and more.
-GitHub Integration:
-Use the GitHub Pull Requests and Issues extension to manage pull requests and issues directly from VS Code.
+Source Control View:Access and manage your repository, stage changes, and commit files.
+Branch Management:Create, switch, and manage branches directly from the Source Control view.
+Built-in Terminal:Use the integrated terminal (Ctrl+ or Cmd+) for advanced Git commands.
+GitLens Extension:Enhance your Git experience with additional features like blame annotations, detailed history, and more.
+GitHub Integration:Use the GitHub Pull Requests and Issues extension to manage pull requests and issues directly from VS Code.
 Example Commands
 Initialize Repository: Ctrl+Shift+G > Initialize Repository
 Stage All Changes: Click the + icon in the Source Control view
