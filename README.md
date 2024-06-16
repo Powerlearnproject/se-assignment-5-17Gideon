@@ -302,23 +302,23 @@ Click the pencil icon next to the command and press Ctrl+X.
    - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
 Setting up and starting debugging in Visual Studio Code (VS Code) involves a few steps to configure the debugger and understand its features. Here's a guide to get you started with debugging a simple program, such as a JavaScript or Python script, in VS Code.
 Steps to Set Up and Start Debugging
-1. Install Necessary Extensions
+Install Necessary Extensions
 JavaScript/Node.js: No additional extensions are required as JavaScript debugging is built-in.
 Python: Install the Python extension. Go to the Extensions view (Ctrl+Shift+X), search for "Python", and install it.
-2. Open Your Project
+Open Your Project
 Open the folder containing your project files by selecting File > Open Folder and navigating to your project directory.
-3. Write a Simple Program
+Write a Simple Program
 Create a file with your code. For example, app.js for JavaScript or app.py for Python.
-4. Configure the Debugger
+Configure the Debugger
 Open the Debug View:
 Click on the debug icon in the Activity Bar on the side of the window or press Ctrl+Shift+D.
 Create a Launch Configuration:
 Click on the gear icon to open launch.json or select create a launch.json file.
 Choose the environment (e.g., Node.js for JavaScript or Python).
-5. Set Breakpoints
+Set Breakpoints
 Open the file with your code (e.g., app.js or app.py).
 Click in the gutter next to the line numbers where you want to set breakpoints, or press F9.
-6. Start Debugging
+Start Debugging
 In the Debug view, click the green play button or press F5 to start debugging.
 The debugger will start and stop at the breakpoints you've set.
 Key Debugging Features in VS Code
